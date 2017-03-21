@@ -82,3 +82,21 @@ pickle-email-*.html
 
 # tilde files are usually backup files from a text editor
 *~
+
+default*.db
+*.db-journal
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+.idea/misc.xml
+.idea/shelf
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.scrapy
+.idea/vagrant.xml
+.vagrant
+.cache
