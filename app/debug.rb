@@ -1,3 +1,8 @@
+artists = "ABC sdf
+ABC sdf
+ABCs sdf
+".split(/\n+/)
 
-x = User.first
-p x
+artists = artists.collect &:strip
+
+p artists
