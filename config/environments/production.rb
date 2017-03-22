@@ -83,4 +83,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+  config.last_fm_api_key = ENV[:LAST_FM_API_KEY]
+  config.last_fm_api_secret = ENV[:LAST_FM_API_SECRET]
 end

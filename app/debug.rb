@@ -6,3 +6,5 @@ ABCs sdf
 artists = artists.collect &:strip
 
 p artists
+
+p Rails.application.config.last_fm_api_secret

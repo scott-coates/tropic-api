@@ -100,3 +100,5 @@ default*.db
 .idea/vagrant.xml
 .vagrant
 .cache
+
+development_override.rb
