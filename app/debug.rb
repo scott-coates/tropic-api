@@ -7,4 +7,7 @@ artists = artists.collect &:strip
 
 p artists
 
-p Rails.application.config.last_fm_api_secret
+lastfm = Lastfm.new(Rails.application.config.last_fm_api_key, Rails.application.config.last_fm_api_secret)
+sim = lastfm.artist.get_similar(artist: 'cher')
+
+p sim
