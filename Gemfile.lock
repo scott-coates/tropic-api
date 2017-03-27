@@ -52,6 +52,8 @@ GEM
       rails (>= 4.2, < 5.1)
       sass-rails (~> 5.0)
       selectize-rails (~> 0.6)
+    aggregate_root (0.4.0)
+      activesupport (>= 3.0)
     arel (7.1.4)
     autoprefixer-rails (6.7.7.1)
       execjs
@@ -228,6 +230,16 @@ GEM
       nokogiri (~> 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails_event_store (0.14.3)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      aggregate_root (~> 0.4.0)
+      rails_event_store_active_record (~> 0.6.10)
+      ruby_event_store (~> 0.13.0)
+    rails_event_store_active_record (0.6.11)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      ruby_event_store (~> 0.13.0)
     rails_layout (1.0.34)
     railties (5.0.2)
       actionpack (= 5.0.2)
@@ -264,6 +276,7 @@ GEM
       rspec-mocks (~> 3.5.0)
       rspec-support (~> 3.5.0)
     rspec-support (3.5.0)
+    ruby_event_store (0.13.0)
     ruby_parser (3.8.4)
       sexp_processor (~> 4.1)
     rubyzip (1.2.1)
@@ -334,6 +347,7 @@ PLATFORMS
 
 DEPENDENCIES
   administrate
+  aggregate_root
   better_errors
   bootstrap-sass
   bourbon
@@ -360,6 +374,7 @@ DEPENDENCIES
   puma (~> 3.0)
   pundit
   rails (~> 5.0.2)
+  rails_event_store
   rails_layout
   rb-fchange
   rb-fsevent

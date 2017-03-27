@@ -13,6 +13,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'lastfm'
+gem 'aggregate_root'
+gem 'rails_event_store'
 group :development, :test do
   gem 'byebug', platform: :mri
 end
